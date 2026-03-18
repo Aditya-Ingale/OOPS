@@ -1,0 +1,25 @@
+1. Create class Box and Box3d. Box3d is extended class of Box. The above two classes going to fulfill the following requirement. Include constructor, set value of length, breadth, height. Find out area and volume. 
+2. Define a base class Person and a derived class employee with single inheritance. Define SetData() member functions in each of the class with different signatures to set the data members and demonstrate overloading of member functions. Define GetData() member functions in each of the class with same signatures to display data and demonstrate overriding of member functions. 
+3. Write a program to give example for multilevel inheritance in Java.
+4. Demonstrate calling the constructor of the base class from the constructor of the derived class. Create objects of person and employee classes to show the order of invocation of constructors. 
+5. Create a class with a method that prints "This is parent class" and its subclass with another method that prints "This is child class". Now, create an object for each of the class and call
+1 - method of parent class by object of parent class
+2 - method of child class by object of child class
+3 - method of parent class by object of child class
+
+6. Create a class named 'Member' having the following members: 
+Data members: 1 – Name, 2 – Age, 3 - Phone number, 4 – Address, 5 - Salary
+It also has a method named 'printSalary' which prints the salary of the members. Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members'specialization' and 'department' respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
+
+
+Abstraction – abstract class and interface, anonymous inner classes
+Problem 1: Create an abstract class Shape with an abstract method double area(). Then, create two subclasses, Circle and Rectangle, that extend Shape and provide implementations for the area method. Write a main method to create instances of Circle and Rectangle, and display their areas.
+Problem 2: Create an abstract class Animal with an abstract method void sound(). Then, create three subclasses, Dog, Cat, and Cow, each implementing the sound method with their respective sounds. Write a main method to create instances of Dog, Cat, and Cow, and invoke the sound method on each instance.
+Problem 3: Create an abstract class Appliance with fields for brand and power consumption, and an abstract method void turnOn(). Create three subclasses, WashingMachine, Refrigerator, and Microwave, each providing their own implementation of the turnOn method. Write a main method to create instances of WashingMachine, Refrigerator, and Microwave, and invoke the turnOn method on each instance to display brand and power consumed.
+Problem 4: Task: Create an interface Animal with methods makeSound() and eat(). Implement this interface in two classes Dog and Cat.
+Problem 5: Create an interface Vehicle with a default method startEngine() that prints "Engine started". Implement this interface in the class Car and override the startEngine() method.
+Problem 6: Interface Inheritance - Create an interface Shape with methods draw() and calculateArea(). Create another interface Colorful that extends Shape and adds a method fillColor(). Implement these interfaces in the class Circle.
+Problem 7: Interface with Multiple Implementations - Create an interface Payment with a method pay(). Implement this interface in two classes CreditCardPayment and PaypalPayment. Write a PaymentProcessor class that uses the Payment interface to process payments.
+Problem 8: Anonymous Inner Class Implementing an Interface - Create an interface Greeting with a method sayHello(). Write a method generateGreeting() in another class that uses an anonymous inner class to implement the Greeting interface and prints a greeting message
+Problem 9: Anonymous Inner Class Extending an Abstract Class - Create an abstract class Shape with an abstract method draw(). Write a method createShape() in another class that uses an anonymous inner class to extend Shape and provides an implementation for the draw() method.
+Problem 10: Anonymous Inner Class Extending a Regular Class - Create a class Printer with a method printMessage(). Write a method createPrinter() in another class that uses an anonymous inner class to extend Printer and overrides the printMessage() method.

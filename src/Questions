@@ -1,18 +1,30 @@
+Classes, Objects and Constructors(Folder Oops)
+1.	Define a class of type Student that has rollno, name and age as private data members. Define SetData() and GetData() as public member functions with appropriate functionality. Write a program that declares 2 student objects, initializes the first at run-time and second by reading from console, and then displays both student’s data.
+2.	Create a class Person with attributes name, age and country. Implement methods to set and get these attributes. Create an object of this class, set its attributes, and print out the details.
+3.	Constructor Overloading: Extend the Person class from the previous problem and add multiple constructors (default, parameterized, etc.) to initialize the attributes. Also, include a method to display the details.
+4.	Using this: Modify the Person class to include a method that displays the name and age of the object. Use this keyword to differentiate between class variables and method parameters. Implement a method to compare two Person objects based on their age.
+5.	Static Variable: Create a class BankAccount with accno, accType, Balance and static variable interestRate. Initialize it using a static block. Implement methods to deposit and withdraw funds. Create objects and display details.
+6.	Static Method: Add a static method to the BankAccount class from the previous problem to calculate interest based on a given balance and interest rate. Also, implement a method to display the account details including balance and interest earned.
+7.	Using this in Constructors: Create a class Rectangle with attributes length and width. Implement a parameterized constructor that initializes these attributes. Use this to differentiate between class variables and constructor parameters. Include methods to calculate the area and perimeter.
+8.	Class and methods: Create a class Calculator with relevant data members and a constructor. Implement methods for basic arithmetic operations (addition, subtraction, multiplication, division, modulus) and demonstrate their usage.
+9.	Composition and Aggregation: Create a class Address with attributes street, city, and state. Then create a class Person with attributes name and an Address object. Demonstrate how to use com Write a Java class representing a Student. Encapsulate the student's name, age, and grade point average (GPA) with private access modifiers. Provide getter and setter methods to access and modify these attributes position to model the relationship between a person and their address
+10.	Implement a Java program that models a Library. Create classes for Library, Book, and Author. Ensure that the Library class aggregates a collection of Book objects, and each Book object has an aggregation relationship with an Author object.
+
+Questions for Inheritance(Folder Inheritance)
 1. Create class Box and Box3d. Box3d is extended class of Box. The above two classes going to fulfill the following requirement. Include constructor, set value of length, breadth, height. Find out area and volume. 
 2. Define a base class Person and a derived class employee with single inheritance. Define SetData() member functions in each of the class with different signatures to set the data members and demonstrate overloading of member functions. Define GetData() member functions in each of the class with same signatures to display data and demonstrate overriding of member functions. 
 3. Write a program to give example for multilevel inheritance in Java.
 4. Demonstrate calling the constructor of the base class from the constructor of the derived class. Create objects of person and employee classes to show the order of invocation of constructors. 
 5. Create a class with a method that prints "This is parent class" and its subclass with another method that prints "This is child class". Now, create an object for each of the class and call
-1 - method of parent class by object of parent class
-2 - method of child class by object of child class
-3 - method of parent class by object of child class
-
+	1 - method of parent class by object of parent class
+	2 - method of child class by object of child class
+	3 - method of parent class by object of child class
 6. Create a class named 'Member' having the following members: 
 Data members: 1 – Name, 2 – Age, 3 - Phone number, 4 – Address, 5 - Salary
 It also has a method named 'printSalary' which prints the salary of the members. Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members'specialization' and 'department' respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
 
 
-Abstraction – abstract class and interface, anonymous inner classes
+Abstraction – abstract class and interface, anonymous inner classes (Folder Abstraction)
 Problem 1: Create an abstract class Shape with an abstract method double area(). Then, create two subclasses, Circle and Rectangle, that extend Shape and provide implementations for the area method. Write a main method to create instances of Circle and Rectangle, and display their areas.
 Problem 2: Create an abstract class Animal with an abstract method void sound(). Then, create three subclasses, Dog, Cat, and Cow, each implementing the sound method with their respective sounds. Write a main method to create instances of Dog, Cat, and Cow, and invoke the sound method on each instance.
 Problem 3: Create an abstract class Appliance with fields for brand and power consumption, and an abstract method void turnOn(). Create three subclasses, WashingMachine, Refrigerator, and Microwave, each providing their own implementation of the turnOn method. Write a main method to create instances of WashingMachine, Refrigerator, and Microwave, and invoke the turnOn method on each instance to display brand and power consumed.
